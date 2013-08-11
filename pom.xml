@@ -47,6 +47,18 @@
 					<version>2.4.1</version>
 					<executions>
 						<execution>
+							<id>prepare</id>
+							<configuration>
+								<mavenExecutorId>forked-path</mavenExecutorId>
+								<useReleaseProfile>false</useReleaseProfile>
+								<arguments>-Psonatype-oss-release-prepare</arguments>
+							</configuration>
+							<goals>
+								<goal>perform</goal>
+							</goals>
+						</execution>
+						
+						<execution>
 							<id>perform</id>
 							<configuration>
 								<mavenExecutorId>forked-path</mavenExecutorId>
@@ -80,7 +92,7 @@
 	<profiles>
 		<!-- this is for release:prepare overrides the oss one to skip signature -->
 		<profile>
-			<id>sonatype-oss-release</id>
+			<id>sonatype-oss-release-prepare</id>
 			<build>
 				<plugins>
 					<plugin>

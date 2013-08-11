@@ -5,7 +5,7 @@
 	<groupId>org.st-js.bridge</groupId>
 	<artifactId>parent-pom</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>Strongly-typed Javascript:Parent POM for Bridges</name>
 
 	<developers>
@@ -155,6 +155,6 @@
 		<connection>scm:git:http://github.com/st-js/bridge-parent-pom.git</connection>
 		<developerConnection>scm:git:http://github.com/st-js/bridge-parent-pom.git</developerConnection>
 		<url>scm:git:http://github.com/st-js/bridge-parent-pom.git</url>
-	  <tag>parent-pom-1.0.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 </project>

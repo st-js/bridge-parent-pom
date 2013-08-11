@@ -53,7 +53,7 @@
 								<arguments>-Psonatype-oss-release-prepare</arguments>
 							</configuration>
 							<goals>
-								<goal>perform</goal>
+								<goal>prepare</goal>
 							</goals>
 						</execution>
 						

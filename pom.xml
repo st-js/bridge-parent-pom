@@ -48,7 +48,7 @@
 					<configuration>
 						<mavenExecutorId>forked-path</mavenExecutorId>
 						<useReleaseProfile>false</useReleaseProfile>
-						<arguments>-Psonatype-oss-release-stjs</arguments>
+						<arguments>-Psonatype-oss-release-stjs -Dgpg.passphrase=${gpg.passphrase}</arguments>
 					</configuration>
 				</plugin>
 

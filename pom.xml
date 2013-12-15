@@ -133,9 +133,9 @@
 	</profiles>
 
 	<scm>
-		<connection>scm:git:http://github.com/st-js/bridge-parent-pom.git</connection>
-		<developerConnection>scm:git:http://github.com/st-js/bridge-parent-pom.git</developerConnection>
-		<url>scm:git:http://github.com/st-js/bridge-parent-pom.git</url>
+		<connection>scm:git:https://github.com/st-js/bridge-parent-pom.git</connection>
+		<developerConnection>scm:git:https://github.com/st-js/bridge-parent-pom.git</developerConnection>
+		<url>scm:git:https://github.com/st-js/bridge-parent-pom.git</url>
 		<tag>HEAD</tag>
 	</scm>
 </project>
